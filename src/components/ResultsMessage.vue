@@ -8,7 +8,7 @@
 
 <style scoped>
 .resultsMessage {
-    width: 80%;
+    width: 90%;
     height: 3rem;
     background-color: black;
     color: white;

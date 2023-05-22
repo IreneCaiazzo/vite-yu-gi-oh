@@ -26,12 +26,20 @@ export default {
 </template>
 
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   height: 5rem;
 }
 
 nav {
   display: flex;
+  align-items: center;
+  margin-inline: 1rem;
 }
 
 img {
