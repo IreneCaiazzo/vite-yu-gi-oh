@@ -12,5 +12,7 @@
     height: 3rem;
     background-color: black;
     color: white;
+    padding: .5rem;
+    margin-inline: 2rem;
 }
 </style>

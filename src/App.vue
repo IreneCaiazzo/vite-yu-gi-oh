@@ -46,15 +46,15 @@ main {
 
 main select {
   width: 100px;
-  margin-left: 3rem;
+  margin: 2rem 3rem;
 }
 
 .container {
-
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 100%;
   justify-self: center;
   align-self: center;
   background-color: white;
+  margin-bottom: 2rem;
 }
 </style>
