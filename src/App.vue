@@ -1,11 +1,23 @@
 <script>
 import ResultsMessage from './components/ResultsMessage.vue';
 import CardsContainer from './components/CardsContainer.vue';
+import axios from 'axios';
+import { store } from './store';
 
 export default {
+  data() {
+    return {
+      store,
+    };
+  },
+
   components: {
     ResultsMessage,
     CardsContainer,
+  },
+
+  created() {
+    axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0').then(response => (this.store.arrCards = response.data.data));
   },
 }
 </script>
