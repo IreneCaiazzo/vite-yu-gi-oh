@@ -1,9 +1,11 @@
 <script>
 import ResultsMessage from './components/ResultsMessage.vue';
+import CardsContainer from './components/CardsContainer.vue';
 
 export default {
   components: {
     ResultsMessage,
+    CardsContainer,
   },
 }
 </script>
